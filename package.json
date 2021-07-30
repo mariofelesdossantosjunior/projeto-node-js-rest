@@ -1,0 +1,8 @@
+{
+  "name": "projeto-node-js-rest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mariofelesdossantosjunior/projeto-node-js-rest.git",
+  "author": "Mario Feles dos Santos Junior",
+  "license": "MIT"
+}
