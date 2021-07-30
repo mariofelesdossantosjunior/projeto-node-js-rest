@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/mariofelesdossantosjunior/projeto-node-js-rest.git",
   "author": "Mario Feles dos Santos Junior",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
