@@ -10,10 +10,9 @@ conexao.connect(erro => {
         console.log('banco de dados conectado com sucesso!')
 
         tabelas.init(conexao)
-        
+
         const app = customExpress()
 
         app.listen(port, () => console.log(`Servidor rodando na porta: ` + port))
     }
 })
-

@@ -12,6 +12,8 @@ class Tabelas {
             servico varchar(20) NOT NULL,
             status varchar(20) NOT NULL,
             observacoes text, 
+            data datetime,
+            dataCriacao datetime,
             PRIMARY KEY(id)
             )`
 
@@ -25,4 +27,4 @@ class Tabelas {
     }
 }
 
-module.exports = new Tabelas
+module.exports = new Tabelas()
