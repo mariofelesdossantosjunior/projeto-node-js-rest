@@ -4,7 +4,7 @@ const conexao = new Client({
     user: 'postgres',
     host: 'localhost',
     database: 'agenda-petshop',
-    password: 'xxxx',
+    password: 'Pkg1522pam',
     port: 5432,
 })
 
