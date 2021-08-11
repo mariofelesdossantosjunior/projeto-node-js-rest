@@ -81,7 +81,7 @@ class Atendimento {
           if (erro) {
             res.status(400).json(erro);
           } else {
-            res.status(201).json(resultado);
+            res.status(201).json(atendimento);
           }
         }
       );
@@ -117,7 +117,7 @@ class Atendimento {
       if (error) {
         res.status(404).json(error);
       } else {
-        res.status(200).json(response);
+        res.status(200).json({ ...valores, id });
       }
     });
   }
@@ -128,7 +128,7 @@ class Atendimento {
       if (error) {
         res.status(404).json(error);
       } else {
-        res.status(200).json(response.rowCount);
+        res.status(200).json({ id });
       }
     });
   }
